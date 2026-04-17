@@ -1,0 +1,12 @@
+Source: ros-kilted-rqml-core
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), libgl1-mesa-dev, libglu1-mesa-dev, libqt6core6, libqt6qml6, libqt6quick6, nlohmann-json3-dev, qt6-base-dev, qt6-base-private-dev, qt6-declarative-dev, qt6-declarative-private-dev, ros-kilted-ament-cmake, ros-kilted-ament-index-cpp, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-qml6-ros2-plugin, ros-kilted-ros-babel-fish-test-msgs <!nocheck>, ros-kilted-yaml-cpp-vendor, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rqml-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt6core6, libqt6qml6, libqt6quick6, qml6-module-qtcore, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, ros-kilted-ament-index-cpp, ros-kilted-qml6-ros2-plugin, ros-kilted-yaml-cpp-vendor, ros-kilted-ros-workspace
+Description: QML-based robotics visualization and control tool for ROS 2.
