@@ -1,0 +1,12 @@
+Source: ros-kilted-rqml-plugin-example
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-rqml-core, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rqml-plugin-example
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, ros-kilted-qml6-ros2-plugin, ros-kilted-rqml-core, ros-kilted-ros-workspace
+Description: An example plugin for RQml
