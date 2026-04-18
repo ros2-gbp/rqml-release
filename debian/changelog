@@ -1,0 +1,18 @@
+ros-kilted-rqml-core (3.26.41-1bookworm) bookworm; urgency=high
+
+  * destroy plugin on close
+    Matches behavior observed when plugins are restored from a config and
+    initialization happens in PluginManager::factoryFn instead of
+    createPlugin
+  * Contributors: dzajac
+
+ -- Stefan Fabian <fabian@sim.tu-darmstadt.de>  Sat, 18 Apr 2026 00:00:00 -0000
+
+ros-kilted-rqml-core (3.26.40-1bookworm) bookworm; urgency=high
+
+  * Initial release.
+  * Contributors: Stefan Fabian
+
+ -- Stefan Fabian <fabian@sim.tu-darmstadt.de>  Fri, 17 Apr 2026 00:00:00 -0000
+
+
