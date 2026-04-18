@@ -1,0 +1,12 @@
+Source: ros-jazzy-rqml-default-plugins
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-qml6-ros2-plugin <!nocheck>, ros-jazzy-rcl-interfaces <!nocheck>, ros-jazzy-ros-babel-fish-test-msgs <!nocheck>, ros-jazzy-rqml-core, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rqml-default-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qml6-module-qt-labs-qmlmodels, qml6-module-qtmultimedia, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, ros-jazzy-control-msgs, ros-jazzy-controller-manager-msgs, ros-jazzy-geometry-msgs, ros-jazzy-moveit-msgs, ros-jazzy-pal-statistics-msgs, ros-jazzy-qml6-ros2-plugin, ros-jazzy-rqml-core, ros-jazzy-sensor-msgs, ros-jazzy-tf2-msgs, ros-jazzy-ros-workspace
+Description: Default plugins for the QML-based robotics visualization and control tool RQml for ROS 2.
