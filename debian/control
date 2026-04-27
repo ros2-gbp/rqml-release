@@ -1,0 +1,12 @@
+Source: ros-kilted-rqml-default-plugins
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-qml6-ros2-plugin <!nocheck>, ros-kilted-rcl-interfaces <!nocheck>, ros-kilted-ros-babel-fish-test-msgs <!nocheck>, ros-kilted-rqml-core, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rqml-default-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qml6-module-qt-labs-qmlmodels, qml6-module-qtmultimedia, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, ros-kilted-control-msgs, ros-kilted-controller-manager-msgs, ros-kilted-geometry-msgs, ros-kilted-moveit-msgs, ros-kilted-pal-statistics-msgs, ros-kilted-qml6-ros2-plugin, ros-kilted-rqml-core, ros-kilted-sensor-msgs, ros-kilted-tf2-msgs, ros-kilted-ros-workspace
+Description: Default plugins for the QML-based robotics visualization and control tool RQml for ROS 2.
