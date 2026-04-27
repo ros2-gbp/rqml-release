@@ -1,0 +1,12 @@
+Source: ros-jazzy-rqml-plugin-example
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-rqml-core, ros-jazzy-ros-workspace
+Homepage: https://index.ros.org/p/rqml_plugin_example/#jazzy
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rqml-plugin-example
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, ros-jazzy-qml6-ros2-plugin, ros-jazzy-rqml-core, ros-jazzy-ros-workspace
+Description: An example plugin for RQml
