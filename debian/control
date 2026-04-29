@@ -1,0 +1,12 @@
+Source: ros-lyrical-rqml-default-plugins
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-qml6-ros2-plugin <!nocheck>, ros-lyrical-rcl-interfaces <!nocheck>, ros-lyrical-ros-babel-fish-test-msgs <!nocheck>, ros-lyrical-rqml-core, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rqml_default_plugins/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rqml-default-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qml6-module-qt-labs-qmlmodels, qml6-module-qtmultimedia, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, ros-lyrical-control-msgs, ros-lyrical-controller-manager-msgs, ros-lyrical-geometry-msgs, ros-lyrical-moveit-msgs, ros-lyrical-pal-statistics-msgs, ros-lyrical-qml6-ros2-plugin, ros-lyrical-rqml-core, ros-lyrical-sensor-msgs, ros-lyrical-tf2-msgs, ros-lyrical-ros-workspace
+Description: Default plugins for the QML-based robotics visualization and control tool RQml for ROS 2.
