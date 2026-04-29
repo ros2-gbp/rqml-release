@@ -1,0 +1,12 @@
+Source: ros-lyrical-rqml-plugin-example
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-rqml-core, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rqml_plugin_example/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rqml-plugin-example
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, ros-lyrical-qml6-ros2-plugin, ros-lyrical-rqml-core, ros-lyrical-ros-workspace
+Description: An example plugin for RQml
