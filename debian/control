@@ -1,0 +1,12 @@
+Source: ros-lyrical-rqml
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rqml/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rqml
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-rqml-core, ros-lyrical-rqml-default-plugins, ros-lyrical-ros-workspace
+Description: QML-based robotics visualization and control tool for ROS 2.
