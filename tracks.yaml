@@ -80,4 +80,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/StefanFabian/rqml
-    version: :{auto}
+    version: 3.26.42
+    version_saved: :{auto}
