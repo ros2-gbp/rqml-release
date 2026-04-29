@@ -1,0 +1,12 @@
+Source: ros-lyrical-rqml-core
+Section: misc
+Priority: optional
+Maintainer: Stefan Fabian <fabian@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), libgl1-mesa-dev, libglu1-mesa-dev, libqt6core6t64, libqt6qml6, libqt6quick6, nlohmann-json3-dev, qt6-base-dev, qt6-base-private-dev, qt6-declarative-dev, qt6-declarative-private-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-index-cpp, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-qml6-ros2-plugin, ros-lyrical-ros-babel-fish-test-msgs <!nocheck>, ros-lyrical-yaml-cpp-vendor, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rqml_core/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rqml-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt6core6t64, libqt6qml6, libqt6quick6, qml6-module-qtcore, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, ros-lyrical-ament-index-cpp, ros-lyrical-qml6-ros2-plugin, ros-lyrical-yaml-cpp-vendor, ros-lyrical-ros-workspace
+Description: QML-based robotics visualization and control tool for ROS 2.
